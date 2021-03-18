@@ -79,7 +79,6 @@ Using the reviews array above:
 
 console.log(reviews[5].feedback)
 
-
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Using the reviews array above do the following: (no function needed) 
   1. Following the same format (name, rating, feedback), add a new fictitious review object to the reviews array
@@ -87,7 +86,7 @@ Using the reviews array above do the following: (no function needed)
 */
 
 // reviews.push({name: bryant,rating:2, feedback:"I like it but not that much"});
-// console.log(reviews)
+// console.log(push(reviews))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Reyna's feedback is missing! Use what you know to do the following: (no function needed) 
@@ -95,6 +94,7 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
   2. log the reviews array to the console to check your work
 */
 
+reviews[7]['feedback'] = 'this place is chill with really cool people, great for getting work done on weekdays';
 
 
 
